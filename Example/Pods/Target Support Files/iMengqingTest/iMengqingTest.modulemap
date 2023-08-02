@@ -1,0 +1,6 @@
+framework module iMengqingTest {
+  umbrella header "iMengqingTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - iMengqingTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - iMengqingTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  iMengqingTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  iMengqingTest: 1b3c39def7b44a1c59ba43e88d154a046e32d817
+
+PODFILE CHECKSUM: 918992ac34d98fefb81cbb4e8aaba3bf9cd4f735
+
+COCOAPODS: 1.11.3
